@@ -1,0 +1,17 @@
+=============== Jan 24, 2017 (SAST) ===============
+13:47:07.898639 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:07.898855 db@open opening
+13:47:07.900216 version@stat F·[] S·0B[] Sc·[]
+13:47:07.900900 db@janitor F·2 G·0
+13:47:07.900922 db@open done T·2.057413ms
+13:47:07.900967 db@close closing
+13:47:07.901087 db@close done T·104.399µs
+=============== Jan 24, 2017 (SAST) ===============
+13:47:07.901543 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:47:07.901626 version@stat F·[] S·0B[] Sc·[]
+13:47:07.901634 db@open opening
+13:47:07.901671 journal@recovery F·1
+13:47:07.902125 journal@recovery recovering @1
+13:47:07.910703 version@stat F·[] S·0B[] Sc·[]
+13:47:07.911247 db@janitor F·2 G·0
+13:47:07.911271 db@open done T·9.628092ms

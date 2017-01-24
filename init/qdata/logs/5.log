@@ -1,0 +1,18 @@
+nohup: appending output to 'nohup.out'
+panic: MustNew error: Get http+unix://c/upcheck: dial unix qdata/tm5.ipc: connect: no such file or directory
+
+goroutine 1 [running]:
+panic(0xc21be0, 0xc420238370)
+	/usr/local/go/src/runtime/panic.go:500 +0x1a1
+github.com/ethereum/go-ethereum/private/constellation.MustNew(0xc42001000f, 0x8, 0xc42001000f)
+	/home/enigma/Quorum_Stuart/quorum/build/_workspace/src/github.com/ethereum/go-ethereum/private/constellation/constellation.go:76 +0x114
+github.com/ethereum/go-ethereum/private.FromEnvironmentOrNil(0xd5d256, 0xe, 0x153ff40, 0xc420067ea0)
+	/home/enigma/Quorum_Stuart/quorum/build/_workspace/src/github.com/ethereum/go-ethereum/private/private.go:19 +0x52
+github.com/ethereum/go-ethereum/private.init()
+	/home/enigma/Quorum_Stuart/quorum/build/_workspace/src/github.com/ethereum/go-ethereum/private/private.go:22 +0x67
+github.com/ethereum/go-ethereum/core.init()
+	/home/enigma/Quorum_Stuart/quorum/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm_env.go:165 +0xf4
+github.com/ethereum/go-ethereum/cmd/utils.init()
+	/home/enigma/Quorum_Stuart/quorum/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/utils/version.go:65 +0x76
+main.init()
+	github.com/ethereum/go-ethereum/cmd/geth/_obj/_cgo_import.go:6 +0x58

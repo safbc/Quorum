@@ -1,0 +1,2 @@
+nohup: appending output to 'nohup.out'
+nohup: failed to run command 'constellation-node': No such file or directory
