@@ -1,0 +1,1 @@
+geth --voteaccount <account> --votepassword <password>
