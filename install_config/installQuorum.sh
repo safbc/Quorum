@@ -1,4 +1,8 @@
-git clone https://github.com/jpmorganchase/quorum.git;cd quorum
+git clone https://github.com/jpmorganchase/quorum.git;
+read -n1 -r -p "Press space to continue once cloning is done..." key
+if [ "$key" = '' ]; then
+   cd quorum;
+fi
 sudo apt-get update
 sudo apt-get -y upgrade
 wget https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz
