@@ -9,10 +9,10 @@ sudo cp -r ./go/* /usr/local && sudo rm -Rf ./go/*;
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/projects/go # you might need to create this directory
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-# thes are for verification of go installation:
+# these are for verification of go installation:
 # go version
 # go env
-cp -Rf build/* /usr/local/bin/
-make all
+sudo cp -r ./build/ /usr/local/bin
+cd ./quorum; make all;
 # test:
 # make test
